@@ -1,0 +1,126 @@
+@media (max-width: 480px) {
+    header{
+        width: 100%;
+    }
+    .section1{
+        width: 100%;
+        display: inline;
+    }
+    .secdets{
+        display: block;
+        width: 100%;
+        height: 400px;
+        border: none;
+    }
+    .clock_box{
+        display: inline;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        border: none;
+    }
+    .tr{
+        margin-left: -15%;
+    }
+    .tr2{
+        margin-top: 15%;
+    }
+    .mN{
+        border-bottom: 2px solid #606263;
+        width: 83%;
+        margin-left: -0%;
+    }
+    .sc2{
+        display: none;
+    }
+    .section2{
+    }
+    .cards{
+        display: inline;
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .card1{
+        margin-left: -0%;
+        
+    }
+    .card2{
+        display: grid;
+        margin-top: 5%;
+    }
+    .card3{
+        margin-top: 10%;
+    }
+    .simg{
+        margin-top: 5%;
+    }
+    .lorem{
+
+    }
+    
+    .section3{
+        width: 100%;
+        display: inline;
+    }
+    .left{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .gr{
+        display: inline;
+        width: 100%;
+    } 
+    .right_box{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .rb2{
+        margin-top: 5%;
+    }
+    .rb3{
+        display: flex;
+        width: 90%; 
+        margin-top: 5%;
+        
+    } 
+    footer{
+        /* display: none; */
+    }
+    .footer_ul{
+        display: none;
+ 
+    }
+    /* -------------------------->page2 */
+    .nws_section1_img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .nws_section1_form{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .nws_section2{
+        /* display: inline; */
+        width: 100%;
+        border: none;
+    }
+    .nws_section2 p{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .text{
+        display: inline;
+        width: 50%;
+        border: none;
+    }
+    .article{
+        border: none;
+        height: 600px;
+    }
+    .img{
+        border-top: 2px solid #606263;
+        padding-top: 5%;
+    }
+}

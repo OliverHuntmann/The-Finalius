@@ -1,0 +1,491 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 54px;
+    background-color: #F6F8F9;
+}
+
+header {
+    max-width: inherit;
+    width: inherit;
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6F8F9;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sc2{
+    display: none;
+}
+.gr{
+    display: none;
+}
+.logo {
+    font-size: 13px;
+    color: #FA6980;
+}
+
+.header_ul {
+    display: flex;
+    gap: 1.4rem;
+}
+.header_li{
+    position: relative;
+}
+.header_li::after{
+    content: "";
+    position: absolute;
+    background-color: #FA6980;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.header_li:hover::after{
+    width: 100%;
+}
+.active {
+    color: red;
+}
+
+.no_active {
+    color: #606263;
+}
+
+
+
+
+/* section 1  */
+.section1 {
+    width: 100%;
+    display: flex;
+}
+
+.photo {
+    width: 65%;
+    height: 599px;
+    padding: 10%;
+    background-image: url("../img/Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wwn {
+    font-size: 35px;
+    color: #F6F8F9;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #F6F8F9;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.usa {
+    font-size: 33px;
+    color: #F6F8F9;
+    margin-bottom: 10px;
+}
+
+.txt2 {
+    color: #F6F8F9;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pcbt {
+    width: 134px;
+    height: 40px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    background-size: 200%;
+    background-image: linear-gradient(to left, #c7140b, #ef5777, #c92017);
+    transition: 0.7s;
+    color: white;
+}
+.pcbt:hover{
+    background-position: right;
+}
+.secdets {
+    width: 35%;
+    height: 599px;
+    background-color: #fff;
+    padding: 8%;
+}
+
+.mN {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid #EBEDED;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.travel,
+.technology {
+    color: #FA6980;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.title {
+    color: #000;
+}
+
+.txt {
+    padding-top: 15px;
+    color: #A6ADB4;
+}
+
+.time_box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.fa-regular {
+    color: #A6ADB4;
+}
+
+.time {
+    color: #A6ADB4;
+}
+
+.tr2 {
+    margin-top: 40px;
+}
+
+
+/* section 2  */
+.section2 {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.tre {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    height: 350px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.simg:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    transition: 5s;
+    filter: grayscale(100%) blur(5px);
+}
+
+.simg {
+    width: 100%;
+    height: 200px;
+}
+
+.dolore {
+    width: 80%;
+    margin: 70px auto 10px auto;
+    color: #000;
+}
+
+.lorem {
+    width: 80%;
+    margin: 0 auto;
+    color: #A6ADB4;
+}
+
+
+
+/* მესამე სექცია  */
+.section3 {
+    width: 90%;
+    margin: 0 auto 100px auto;
+}
+
+.hn {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.section3_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 68%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img_box1,
+.img_box2 {
+    width: 100%;
+    height: 48%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_box1 {
+    background-image: url("../img/Image2.png");
+}
+
+.img_box2 {
+    background-image: url("../img/Image.jpg");
+}
+
+.jpgc {
+    width: 90%;
+    font-size: 24px;
+    margin-top: 40px;
+    color: #F6F8F9;
+}
+
+.jpgc2 {
+    width: 90%;
+    font-size: 24px;
+    margin-top: 230px;
+    color: #F6F8F9;
+}
+
+.jpgc3 {
+    width: 90%;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #F6F8F9;
+}
+
+
+
+.right {
+    width: 30%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right_box {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.picdets {
+    width: 100%;
+    height: 210px;
+}
+
+.sa {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+/* footer  */
+footer {
+    width: 100%;
+    background-color: #A6ADB4;
+    padding: 55px 5% 61px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_left {
+    display: flex;
+    gap: 40px;
+}
+
+.footer_logo {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.footer_ul li a {
+    color: #CBD0D3;
+    font-size: 13px;
+}
+
+.ul2 {
+    display: flex;
+    gap: 30px;
+}
+
+.ul2 .li2 a {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 58px;
+    font-size: 35px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.ul2 .li2 a .icon {
+    position: relative;
+    color: #262626;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    z-index: 3;
+    bottom: 3px;
+}
+
+.ul2 .li2 a:hover .icon {
+    color: #fff;
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+
+.ul2 .li2 a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    z-index: 2;
+}
+
+.ul2 .li2 a:hover:before {
+    top: 0;
+}
+
+.ul2 .li2:nth-child(1) a:before {
+    background: #3b5999;
+}
+
+.ul2 .li2:nth-child(2) a:before {
+    background: #55acee;
+}
+
+.ul2 .li2:nth-child(3) a:before {
+    background: #0077b5;
+}
+
+.ul2 .li2:nth-child(4) a:before {
+    background: #dd4b39;
+}
+
+/* tablet-ის რეზოლუციაზე footer_ul-ები გააქრე და მხოლოდ ლოგო და სოც.აიქონები დატოვე. ამ css-ში დაწერე მეორე გვერდის სტილებიც */
+/* header-ს და footer-ს გადააკოპირებ და არ მოგიწევს ახალი სტილების დაწერა. არც კონტეინერს არ შეუცვალო არაფერი.  */
+
+
+
+
+
+/* მეორე გვერდი */
+
+/* მეორე გვერდი/პირველი სექცია */
+.nws_section1 {
+    width: 90%;
+    margin: 103px auto 37px auto;
+    display: flex;
+}
+
+.nws_section1_img {
+    width: 50%;
+    height: 500px;
+    background-image: url(../img/wnimage2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.world_news{
+    display: grid;
+    place-items: center;
+    height: 50vh;
+    color: #fff;
+    font-size: 2rem;
+}
+.nws_section1_form {
+    width: 50%;
+    height: 500px;
+    padding: 13%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-weight: bold;
+}
+.date{
+    margin-bottom: 50px;
+    width: 250px;
+    height: 30px;
+}
+
+
+/* მეორე გვერდი/მეორე სექცია  */
+.nws_section2 {
+    width: 90%;
+    height: 253px;
+    margin: 0 auto 40px auto;
+    border-top: 2px solid #EBEDED;
+    border-bottom: 2px solid #EBEDED;
+    display: flex;
+    place-items: center;
+}
+.nws_section2 h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.text{
+    width: 760px;
+    display: flex;
+    margin-left: 50px;
+    gap: 40px;
+    color: #A6ADB4;
+}
+/* მეორე გვერდი/statia  */
+.article {
+    width: 90%;
+    height: 830px;
+    margin: 0 auto 161px auto;    
+}
+.img{
+    width: 100%;
+}
+.article p{
+    margin-top: 50px;
+    color: #A6ADB4;
+}
